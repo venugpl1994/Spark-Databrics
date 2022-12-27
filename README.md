@@ -25,3 +25,6 @@ df3.write.mode("append").csv("/FileStore/tables/test_2.csv") ////It will create 
 df3.write.mode("overwrite").csv("/FileStore/tables/test_2.csv")///It will not create new paruet file in DBFS and overwrite the earlier file 
 
 df.collect() ///It will show row wise data 
+
+df.write.format("parquet").mode("overwrite").save("/Filestore/tables/Employment")
+
