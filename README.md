@@ -28,3 +28,6 @@ df.collect() ///It will show row wise data
 
 df.write.format("parquet").mode("overwrite").save("/Filestore/tables/Employment")
 
+How to create secret scope in databrics or How to connect databrics with Azure key-vault account ?
+
+Enter #secrets/createScope
